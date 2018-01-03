@@ -96,7 +96,7 @@ open class TwicketSegmentedControl: UIControl {
 
     open var cornerBorderBackgroundColor: UIColor = Palette.cornerBorderColor {
       didSet {
-        containerView.layer.borderColor = cornerBorderBackgroundColor
+        containerView.layer.borderColor = cornerBorderBackgroundColor.cgColor
       }
     }
 
