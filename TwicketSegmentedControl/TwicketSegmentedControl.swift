@@ -178,7 +178,7 @@ open class TwicketSegmentedControl: UIControl {
         containerView.layer.borderWidth = 0.8
         containerView.layer.borderColor = UIColor(red: 241/255, green: 0/255, blue: 47/255, alpha: 1.0).cgColor
 
-        backgroundColor = .white
+        backgroundColor = .black
         backgroundView.backgroundColor = segmentsBackgroundColor
         selectedContainerView.backgroundColor = sliderBackgroundColor
 
