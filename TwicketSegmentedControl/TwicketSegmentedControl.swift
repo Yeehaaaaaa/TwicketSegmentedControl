@@ -94,6 +94,12 @@ open class TwicketSegmentedControl: UIControl {
         }
     }
 
+    open var cornerBorderBackgroundColor: UIColor = Palette.cornerBorderColor {
+      didSet {
+        containerView.layer.borderColor = cornerBorderBackgroundColor
+      }
+    }
+
     open var isSliderShadowHidden: Bool = false {
         didSet {
             updateShadow(with: sliderBackgroundColor, hidden: isSliderShadowHidden)
