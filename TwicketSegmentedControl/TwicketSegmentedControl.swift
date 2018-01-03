@@ -176,7 +176,7 @@ open class TwicketSegmentedControl: UIControl {
 
         containerView.layer.cornerRadius = cornerRadius
         containerView.layer.borderWidth = 0.8
-        containerView.layer.borderColor = UIColor.black.cgColor
+        containerView.layer.borderColor = Palette.cornerBorderColor.cgColor
 
         backgroundColor = .white
         backgroundView.backgroundColor = segmentsBackgroundColor
